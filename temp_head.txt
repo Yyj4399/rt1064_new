@@ -1,0 +1,20 @@
+#include "menu.h"
+#include "motor.h"
+#include "Attitude.h"
+#include <string.h>
+
+
+//// 前置声明，避免引�?Attitude.h 造成头文件循�?//typedef struct
+//{
+//    float roll;
+//    float pitch;
+//    float yaw;
+//    float roll_offset;
+//} attitude_euler_t;
+//extern attitude_euler_t eulerAngle;
+//extern float gyroscopeOffset[3];
+
+#define FLASH_SECTION_INDEX            127
+#define FLASH_PAGE_INDEX               FLASH_PAGE_3
+#define PATH_ITEMS_PER_PAGE            32
+

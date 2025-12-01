@@ -1,0 +1,59 @@
+# OS/filesystem clutter
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor settings
+.vscode/
+.idea/
+*.code-workspace
+
+# Generic build products
+*.o
+*.obj
+*.d
+*.crf
+*.map
+*.axf
+*.elf
+*.out
+*.bin
+*.hex
+*.srec
+*.lst
+*.lnp
+*.dep
+*.tmp
+*.bak
+*.log
+*.swp
+*.swo
+*~
+
+# Keil MDK outputs
+rt1064/project/mdk/Objects/
+rt1064/project/mdk/Listings/
+rt1064/project/mdk/RTE/
+rt1064/project/mdk/*.uvguix*
+rt1064/project/mdk/*.uvoptx
+rt1064/project/mdk/*.scvd
+rt1064/project/mdk/*.htm
+rt1064/project/mdk/*.build_log.htm
+
+# IAR EWARM outputs
+rt1064/project/iar/**/Debug/
+rt1064/project/iar/**/Release/
+rt1064/project/iar/**/Obj/
+rt1064/project/iar/**/List/
+rt1064/project/iar/**/Exe/
+rt1064/project/iar/**/settings/
+rt1064/project/iar/**/*.dep
+rt1064/project/iar/**/*.pbd
+rt1064/project/iar/**/*.ewd
+rt1064/project/iar/**/*.ewt
+rt1064/project/iar/**/*.dni
+rt1064/project/iar/**/*.dnx
+rt1064/project/iar/**/*.map
+
+# Local scratch binaries
+tmpgreedy/*.exe
